@@ -45,6 +45,6 @@ Stay tuned for the launch of our **official website** and **social media platfor
 ### Leaders
 - **Shatha Alharbi** — Team Leader  
 - **Ebtihal Alomari** — Girls Representer
-- **M
+- **Muznah Abdulgader** - General Managment
 ### Supervisor
 - **Dr. Jamal** — General Supervisor  
