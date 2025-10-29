@@ -31,10 +31,6 @@ We aim to build a **thriving technical community** within the university — bri
 ## Our Vision
 To become one of the **leading university robotics teams in the region**, proudly representing our university in **local and global competitions** through innovation and technical excellence.
 
----
-
-## Coming Soon
-Stay tuned for the launch of our **official website** and **social media platforms**, where we will share our latest projects, achievements, and events.
 
 ---
 ### Leaders
