@@ -11,11 +11,6 @@ We aim to build a **thriving technical community** within the university — bri
 
 ---
 
-## Main Project
-**Roadmap Project**  
-This project outlines a clear development roadmap to enhance our members’ technical, research, and teamwork skills in robotics and AI, guiding them from fundamentals to advanced applications.
-
----
 
 ## Our Values
 - Collaboration and teamwork  
