@@ -36,6 +36,6 @@ To become one of the **leading university robotics teams in the region**, proudl
 ### Leaders
 - **Shatha Alharbi** — Team Leader  
 - **Ebtihal Alomari** — Girls Representer
-- **Muznah Abdulgader** - General Managment
+- **Muzna Abdelgadir** - General Managment
 ### Supervisor
 - **Dr. Jamal** — General Supervisor  
