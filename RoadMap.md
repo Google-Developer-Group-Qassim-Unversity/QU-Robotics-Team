@@ -32,6 +32,43 @@ It’s divided into **phases** — each focusing on building a layer of understa
 ---
 ## Phase 3 — Basic of Microcontrollers 
 
+This phase focuses on learning how to program, connect, and control sensors and actuators through embedded systems.  
+Starting with **Arduino**, move to **ESP32** for wireless and multitasking capabilities, and optionally explore **STM32** for industrial-level applications.
+
+---
+
+| **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
+|--------------|--------------------------|----------------|--------------|
+| **Introduction to Microcontrollers** | [Arduino Official Getting Started](https://docs.arduino.cc/learn/starting-guide/getting-started-arduino/), YouTube: *DroneBot Workshop - Arduino Basics* | Arduino Uno / Nano, Arduino IDE | Understanding embedded systems and microcontroller architecture; foundation for all robot controllers. |
+| **Arduino IDE & Programming Fundamentals** | [Arduino Tutorials](https://www.arduino.cc/en/Tutorial/HomePage), *Programming Electronics Academy* | Arduino IDE, VS Code + PlatformIO | Writing sketches, uploading firmware, serial monitoring, and debugging. |
+| **Digital & Analog I/O** | *Khan Academy: Digital vs Analog*, Arduino I/O Tutorials | Arduino board, Breadboard, Jumper Wires | Reading sensors, controlling LEDs, buttons, and switches. |
+| **PWM (Pulse Width Modulation)** | *DroneBot Workshop - PWM Explained*, Arduino PWM Examples | Arduino, LEDs, Servo Motors, DC Motors | Motor speed control, LED brightness, servo positioning. |
+| **Reading Sensors** | *SparkFun Sensor Guide*, *DroneBot Workshop - Ultrasonic Sensor* | Ultrasonic Sensor (HC-SR04), IR Sensor, Temperature Sensor | Obstacle detection, line following, environmental sensing. |
+| **Driving Actuators** | *Arduino Servo Motor Tutorial*, *DC Motor Control with Arduino* | Servo Motors, DC Motors, Motor Driver (L298N) | Robot movement, arm control, mechanism actuation. |
+| **Simple Embedded Projects** | *Instructables Arduino Projects*, *Hackster.io Arduino Tutorials* | Arduino Kit, Breadboard, Various Sensors & Actuators | Small projects like blinking LED, line follower, obstacle avoiding robot. |
+| **ESP32 Fundamentals** | [Random Nerd Tutorials - ESP32](https://randomnerdtutorials.com/), *DroneBot Workshop - ESP32 Intro* | ESP32 Dev Board, Arduino IDE / PlatformIO | Wireless control, IoT communication, onboard Wi-Fi/Bluetooth programming. |
+| **Real-Time Operating Systems (RTOS)** | [FreeRTOS Official Tutorials](https://www.freertos.org/), *DroneBot Workshop - RTOS Basics* | ESP32 with FreeRTOS, PlatformIO | Implementing multitasking; running concurrent sensor and actuator tasks; task scheduling in embedded robotics. |
+
+---
+
+#### Advanced Extension: STM32 Foundations (Optional)
+
+| **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
+|--------------|--------------------------|----------------|--------------|
+| **STM32 Architecture & Setup** | *Phil’s Lab - STM32 Basics*, [STM32CubeIDE Documentation](https://www.st.com/en/development-tools/stm32cubeide.html) | STM32 Blue Pill / Nucleo Board, STM32CubeIDE | Introduction to ARM Cortex-M architecture and embedded C development. |
+| **GPIO & Peripheral Programming** | *ST HAL Library Guides*, *ControllerTech YouTube - STM32 HAL Tutorials* | STM32 HAL Libraries, Debugger (ST-Link) | Direct register programming, advanced peripheral control, industrial robotics hardware. |
+| **RTOS on STM32** | *FreeRTOS on STM32CubeIDE Tutorials*, *ST Community Projects* | STM32 with FreeRTOS, CubeIDE | Real-time task management and precision control loops. |
+
+
+---
+
+#### Suggested Resource Hubs
+
+- **Arduino Official Site:** [https://www.arduino.cc/](https://www.arduino.cc/)  
+- **DroneBot Workshop (YouTube):** [https://www.youtube.com/@DroneBotWorkshop](https://www.youtube.com/@DroneBotWorkshop)  
+- **Random Nerd Tutorials (ESP32):** [https://randomnerdtutorials.com/](https://randomnerdtutorials.com/)  
+- **FreeRTOS:** [https://www.freertos.org/](https://www.freertos.org/)  
+- **Phil’s Lab (STM32 & Electronics Design):** [https://www.youtube.com/@PhilsLab](https://www.youtube.com/@PhilsLab)
 
 
 ---
