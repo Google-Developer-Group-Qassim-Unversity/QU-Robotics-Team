@@ -269,6 +269,53 @@ Design and simulate a **2-DoF robotic arm** in **ROS + Gazebo** or **CoppeliaSim
 5. Plot response metrics (overshoot, steady-state error) and tune gains.  
 
 ---
+## Phase 7 — Robotics Projects
+---
+
+### General Overview
+
+This phase is where **all previous knowledge** is integrated into **functional robotic systems**.  
+Members will work in teams to tackle **complex, real-world problems**, applying the **engineering design process** from conception to testing and validation.  
+The projects in this phase encourage **iterative design**, **testing**, and **practical troubleshooting**.
+
+---
+
+### Objectives
+
+- Apply knowledge from all previous phases (Math, Electronics, Mechanics, Control Systems, Sensors & Actuators).  
+- Develop complete **robotic systems** (hardware + software integration).  
+- Practice **version control (Git)**, **team collaboration**, and **technical documentation**.  
+- Validate theoretical models through **real-world testing and analysis**.  
+
+---
+
+### Core Project Areas
+
+| **Project Focus** | **Key Technologies Used** | **Deliverables** | **Used In** |
+|--------------------|---------------------------|------------------|-------------|
+| **Autonomous Mobile Robot (AMR)** | ROS/ROS 2, LiDAR/Camera, SLAM, Navigation Stack (Nav2), Microcontrollers | Functional robot that maps an unknown environment and navigates autonomously to a target point | Competition robots, logistics, domestic robotics |
+| **Robotic Manipulator (Arm)** | Inverse Kinematics (IK), Dynamics, Computer Vision (OpenCV), Advanced Actuators/Encoders | 3-DoF or higher robotic arm performing pick-and-place using visual feedback | Industrial automation, service robotics |
+| **Drone / UAV Control** | Aerodynamics basics, IMU/GPS, Flight Control Firmware (PX4 / ArduPilot), ROS Mavlink interface | Stable quadcopter capable of autonomous waypoint navigation | Aerial surveillance, mapping, delivery |
+| **Sensor Fusion & Localization** | Kalman Filters (EKF), Particle Filters, Multi-sensor integration (GPS, IMU, Odometry, Camera) | Robust localization system for complex, dynamic environments | All advanced autonomous systems |
+| **Human–Robot Interaction (HRI)** | Speech Recognition (Vosk / Google API), Computer Vision (OpenCV / YOLO), Gesture Control | Interactive robot that can recognize commands or gestures | Assistive robotics, service applications |
+
+---
+
+### Suggested Add-ons 
+
+- **Version Control & Collaboration:**  
+  - Use **GitHub / GitLab** for source code, PCB design, and documentation.  
+  - Each team maintains its own **`README.md`** and **hardware/software diagrams**.  
+
+- **Testing & Validation:**  
+  - Create structured **test plans** (hardware integration, safety, sensor calibration).  
+  - Record **video documentation** for major project milestones.
+
+- **Documentation:**  
+  - Include **block diagrams**, **URDF models**, **schematics**, and **flowcharts**.  
+  - Write technical reports explaining the design rationale, algorithms, and testing methods.  
+
+---
 
 
 
