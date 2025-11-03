@@ -51,8 +51,6 @@ This phase introduces physics-based simulation (e.g., using Gazebo or CoppeliaSi
 
 ---
 
-## Summary Table
-
 | **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
 |--------------|--------------------------|----------------|--------------|
 | **Engineering Design Process & Applied Mechanics** | [MIT OpenCourseWare – Mechanics & Dynamics](https://ocw.mit.edu), NASA Robotics Design Guide | SolidWorks / Fusion 360, MATLAB (for calculations) | Designing robot drive trains, defining specifications under constraints |
@@ -87,7 +85,7 @@ This phase introduces physics-based simulation (e.g., using Gazebo or CoppeliaSi
 
 ---
 
-## Suggested Project Example
+### Suggested Projets 
 
 **Mini Project:**  
 Design and fabricate a small robotic arm or drive train.  
@@ -98,6 +96,79 @@ Design and fabricate a small robotic arm or drive train.
 - Validate results through stress testing and center-of-gravity analysis.
 
 ---
+
+## Phase 5 — Sensors and Actuators  
+
+
+
+---
+
+## Phase 6 — Control Systems, Kinematics, and Dynamics 
+
+---
+
+### General Overview
+
+This section formalizes the mathematics and theory introduced practically in earlier modules.  
+It covers the core principles of **robot control**, **movement planning**, and **system dynamics**.  
+Participants will develop mathematical models for robotic systems and implement **closed-loop feedback control** using industry-standard tools and simulation environments.
+
+---
+
+### Objectives
+
+- Derive and implement **forward and inverse kinematics** for robotic manipulators and mobile bases.  
+- Understand and tune **feedback mechanisms**, primarily **Proportional-Integral-Derivative (PID)** controllers.  
+- Model robotic system dynamics using **Newton-Euler** or **Lagrangian mechanics**.  
+- Utilize advanced **simulation and control environments** (MATLAB/Simulink, ROS/Gazebo).  
+
+---
+
+| **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
+|--------------|--------------------------|----------------|--------------|
+| **Open-Loop vs. Closed-Loop Control Systems** | MIT OCW: *Dynamics & Controls*, YouTube: *Control Systems Basics* | MATLAB/Simulink, Arduino IDE, Python | Comparing open-loop vs. closed-loop motor control with encoder feedback |
+| **PID Control Theory** | *Modern Control Engineering* by Katsuhiko Ogata, MATLAB Control Tutorials | MATLAB/Simulink, CoppeliaSim | Tuning P, I, D gains to minimize steady-state error and overshoot |
+| **Stability Analysis** | MATLAB System Identification Toolbox Guides, MIT OCW *2.004 Controls* | MATLAB, Python (control library) | Measuring overshoot, settling time, and verifying system stability |
+| **Forward Kinematics** | *Robotics: Modelling, Planning and Control* by Bruno Siciliano, YouTube: *Intro to Kinematics* | Python / C++, MATLAB | Computing end-effector position/orientation from joint angles |
+| **Inverse Kinematics** | Stanford Robotics Lectures, CoppeliaSim Tutorials | Python / C++, ROS, Gazebo | Solving for joint angles to reach a specific target position |
+| **Homogeneous Transformation Matrices (HTMs) & D-H Parameters** | MIT OCW *Introduction to Robotics*, ROS Wiki | MATLAB, Python (NumPy, SymPy) | Modeling robotic manipulators and verifying link transformations |
+| **System Dynamics (Newton-Euler, Lagrangian)** | MIT 2.004 Dynamics and Controls, YouTube: *Robot Dynamics Basics* | MATLAB/Simulink, Python | Deriving equations of motion for arms, pendulums, or mobile bases |
+| **Actuator Dynamics** | Motor datasheets (e.g., Maxon, Pololu), *Modern Control Engineering* | MATLAB, ROS, CoppeliaSim | Simulating torque, inertia, and acceleration limits |
+| **Trajectory Planning** | Python Robotics (GitHub), Coursera: *Robot Motion Planning* | Python, MATLAB | Implementing smooth polynomial trajectories for motion control |
+| **ROS Control Stack (ros_control, URDF)** | [ROS Wiki: ros_control](https://wiki.ros.org/ros_control), *Gazebo Tutorials* | ROS, Gazebo, URDF/Xacro | Defining joints, actuators, and controllers in a simulation environment |
+| **Integration of Control Loops** | ROS2 Control Tutorials, YouTube: *Gazebo Control Integration* | ROS, Gazebo, MATLAB/Simulink | Building a full closed-loop control system using inverse kinematics |
+| **Simulation Validation** | CoppeliaSim, Gazebo, MATLAB Simscape | MATLAB/Simulink, ROS/Gazebo | Testing controller performance and verifying kinematic/dynamic accuracy |
+
+---
+
+### Recommended Resources
+
+| **Type** | **Resource Name** | **Description** |
+|-----------|------------------|-----------------|
+| **Software** | **MATLAB/Simulink** | Industry-standard tool for control system design, simulation, and analysis. |
+| **Software** | **ROS (Robot Operating System) + Gazebo** | The primary framework for modern robotics research and control simulation. |
+| **Software** | **Python / C++** | Core programming languages for control implementation in both real and simulated systems. |
+| **Textbook** | *Robotics: Modelling, Planning and Control* — Bruno Siciliano | Comprehensive reference for kinematics, dynamics, and control. |
+| **Textbook** | *Modern Control Engineering* — Katsuhiko Ogata | Classic control theory resource (PID, stability, frequency response). |
+| **Online Course** | *MIT 2.004 Dynamics and Controls* | Free MIT OCW course on system dynamics and control theory. |
+| **Reference** | *ROS Wiki – ros_control & URDF* | Official reference for defining and managing control interfaces in ROS. |
+
+---
+
+### Suggested Projects
+
+**Mini Project:**  
+Design and simulate a **2-DoF robotic arm** in **ROS + Gazebo** or **CoppeliaSim**, implementing a complete feedback control loop.
+
+**Steps:**
+1. Derive forward and inverse kinematics using D-H parameters.  
+2. Implement a PID controller for each joint.  
+3. Generate smooth motion trajectories between waypoints.  
+4. Simulate motion in Gazebo with realistic physics.  
+5. Plot response metrics (overshoot, steady-state error) and tune gains.  
+
+---
+
 
 
 ---
