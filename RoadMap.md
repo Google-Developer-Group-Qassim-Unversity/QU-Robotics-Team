@@ -27,6 +27,79 @@ It’s divided into **phases** — each focusing on building a layer of understa
 | **Analog vs Digital Electronics** | - [Electronics Tutorials: Analog vs Digital](https://www.electronics-tutorials.ws/digital/dig_1.html) <br> - [Khan Academy: Logic Gates](https://www.khanacademy.org/computing/computer-science/cryptography/digital-information/a/logic-gates) | - **Logic.ly** <br> - **Proteus Logic Analyzer** | - Interfacing microcontrollers <br> - Signal conditioning <br> - Embedded control |
 | **Measurement & Testing** | - [EEVblog: Multimeter & Oscilloscope Basics](https://www.youtube.com/user/EEVblog) <br> - [Electronics Tutorials: Measuring Instruments](https://www.electronics-tutorials.ws/) | - **Multimeter** <br> - **Oscilloscope (Virtual or Real)** | - Circuit troubleshooting <br> - Performance analysis <br> - Sensor calibration |
 
+
+---
+## Phase 3 — Basic of Microcontrollers 
+
+
+
+---
+## Phase 4 — Mechanics and Design  
+
+### General Overview
+
+**Focus:** Applied Mechanics, CAD, and Manufacturing
+
+This phase introduces physics-based simulation (e.g., using Gazebo or CoppeliaSim), static and dynamic analysis, and professional CAD software such as SolidWorks, Inventor, or Fusion 360.
+
+### Objectives
+
+- Understand the physics governing robotic movement and structure (kinematics and dynamics introduced practically here; formalized in Section 6).  
+- Select appropriate materials and components based on quantitative requirements (stress, strain, weight, cost).  
+- Develop proficiency in Computer-Aided Design (CAD) for prototyping and manufacturing.  
+- Translate a conceptual design into a physical, functional prototype.  
+
+---
+
+## Summary Table
+
+| **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
+|--------------|--------------------------|----------------|--------------|
+| **Engineering Design Process & Applied Mechanics** | [MIT OpenCourseWare – Mechanics & Dynamics](https://ocw.mit.edu), NASA Robotics Design Guide | SolidWorks / Fusion 360, MATLAB (for calculations) | Designing robot drive trains, defining specifications under constraints |
+| **Applied Statics & Free Body Diagrams (FBDs)** | *Vector Mechanics for Engineers* textbook, Khan Academy (Statics), NASA Design Guide | CAD + Physics Sim (Gazebo / CoppeliaSim) | Force and torque analysis, stability checks before CAD modeling |
+| **Applied Dynamics** | MIT OCW Dynamics Lectures, *Vector Mechanics for Engineers (Dynamics)* | MATLAB, Fusion 360 Simulation | Center of gravity, friction, and stability calculations |
+| **Material Science & Selection** | McMaster-Carr Catalogs, *Machinery’s Handbook*, NASA Robotics Design Guide | Fusion 360, Datasheet references | Choosing materials (Al 6061, ABS, Delrin, PEEK) based on mechanical properties |
+| **Computer-Aided Design (CAD) Mastery** | Autodesk Education (Fusion 360 Free License), SolidWorks Student Edition | SolidWorks / Fusion 360 / Inventor | Parametric modeling and assembly creation |
+| **Engineering Drawings & DfM (Design for Manufacturing)** | YouTube: “Learn SolidWorks Drawings”, *Machinery’s Handbook* | SolidWorks Drawing Module / Fusion 360 Technical Drawing | Creating manufacturing-ready blueprints and BOMs |
+| **Finite Element Analysis (FEA)** | *SolidWorks Simulation Tutorials*, *Fusion 360 Stress Analysis Guides* | FEA within SolidWorks or Fusion 360 | Predicting stress, strain, and failure points virtually |
+| **Gears, Belts, and Power Transmission** | SDP/SI Catalogs, MIT OCW: Mechanisms & Gear Theory | Fusion 360 Motion Study, SolidWorks Motion | Designing reduction systems and power trains |
+| **Linkage Design & Actuation** | CoppeliaSim Tutorials, YouTube: “Linkage Simulation in CAD” | Fusion 360 Motion Study, Gazebo | Simulating 4-bar and 5-bar linkages, motor and actuator testing |
+| **Manufacturing & Prototyping Techniques** | *Fusion 360 CAM Tutorials*, University Machine Shop Guides | CNC, Laser Cutter, 3D Printer (FDM/SLA) | Fabricating robot parts from CAD models |
+| **Hands-On Prototyping & Validation** | YouTube: “Destructive Testing Basics”, *NASA Robotics Testing Procedures* | Load-testing rigs, sensors | Testing parts under load, comparing simulation to real-world results |
+| **Soldering & PCB Assembly (Optional for Integration)** | EEVblog Soldering Tutorials, SparkFun Soldering Guide | Soldering Iron (60W+), Flux, Multimeter | PCB assembly for control electronics or sensor integration |
+
+---
+
+## Recommended Resources
+
+| **Type** | **Resource Name** | **Description** |
+|-----------|------------------|-----------------|
+| **Software** | **SolidWorks** | Industry-standard CAD software for professional design and simulation. |
+| **Software** | **Gazebo** | Open-source physics-based simulator for robotics applications. |
+| **Software** | **CoppeliaSim** | Physics-based robotic simulator supporting dynamic analysis. |
+| **Software** | **Autodesk Fusion 360** | Free for students; integrates CAD, CAM, and FEA. |
+| **Textbook** | *Vector Mechanics for Engineers (Statics/Dynamics)* | Standard university reference for mechanical fundamentals. |
+| **Textbook** | *Machinery’s Handbook* | Authoritative guide on physical design and manufacturing. |
+| **Reference** | **NASA Robotics Design Guide** | Practical design and testing examples from real robotics applications. |
+| **Reference** | **McMaster-Carr / SDP-SI Catalogs** | Real-world material and component datasheets. |
+| **Online Learning** | **MIT OpenCourseWare** | Free engineering course materials on mechanics, dynamics, and CAD. |
+| **Facilities** | **University Makerspace / Lab** | Access to 3D printers, laser cutters, and CNC machines is mandatory. |
+
+---
+
+## Suggested Project Example
+
+**Mini Project:**  
+Design and fabricate a small robotic arm or drive train.  
+- Define requirements (weight, torque, motion range).  
+- Design in Fusion 360 or SolidWorks.  
+- Simulate with CoppeliaSim or Gazebo.  
+- Fabricate components via 3D printing and laser cutting.  
+- Validate results through stress testing and center-of-gravity analysis.
+
+---
+
+
 ---
 > © All Rights Reserved — Qu Robotics Team 2025
 
