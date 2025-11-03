@@ -318,31 +318,29 @@ The projects in this phase encourage **iterative design**, **testing**, and **pr
 ---
 
 ## Phase 8 — Advanced Topics (ROS 2 & Autonomy) 
+---
 
 ### General Overview
-This phase introduces the industry-standard framework, the Robot Operating System (ROS 2), which provides a structured middleware for complex robotic software architectures. Members will learn to transition from bare-metal microcontroller programming to a modular, networked system capable of running advanced autonomy algorithms.
+This phase introduces industry-standard frameworks and cutting-edge algorithms used in modern robotics research and commercial applications. The Robot Operating System (ROS) becomes the central framework for managing communication between disparate robot components.
 
---- 
+---
 
 ### Objectives
-* Master the ROS 2 architecture (Nodes, Topics, Services, Actions, Parameters, Messages).
-* Utilize simulation environments (Gazebo) to test complex algorithms virtually.
-* Implement Simultaneous Localization and Mapping (SLAM) and the Navigation2 stack.
-* Understand data flow management, debugging tools (RViz, PlotJuggler), and inter-process communication (DDS).
+* Master the ROS framework for modular robotics development.
+* Implement state estimation and localization algorithms (Kalman, Particle Filters, SLAM).
+* Utilize computer vision techniques for complex object recognition and spatial mapping.
+* Explore advanced control techniques (e.g., LQR, Model Predictive Control).
 
 ---
 
 | Subject | Best Free Resources | Main Tools | Used In |
 |---------|---------------------|------------|---------|
-| Introduction to ROS 2 & Architecture | ROS 2 Documentation & Tutorials, The Construct ROS 2 Courses | Ubuntu Linux, VS Code, ROS 2 (Foxy/Humble) | The software backbone of nearly all modern robots |
-| Nodes, Topics, Messages (Pub/Sub) | ROS 2 Publisher/Subscriber Tutorials | C++ / Python, Terminal/CLI | Basic communication between all robot processes |
-| Services, Actions, Parameters | ROS 2 Actions Tutorial, ROS 2 Parameters Tutorial | C++ / Python | Structured command/response interactions (e.g., starting a navigation task) |
-| TF2 (Coordinate Transforms) | ROS 2 TF2 Tutorials, ROS Wiki: TF Introduction | URDF, RViz | Managing spatial relationships between sensors, joints, and the world frame |
-| URDF/Xacro Model Creation | ROS 2 URDF Tutorials | SolidWorks/Fusion 360 Exporter, URDF | Describing the physical robot model for simulation and visualization |
-| Simulation with Gazebo | Gazebo Documentation/Tutorials, ROS 2 Gazebo Integration | Gazebo, RViz | Testing algorithms safely before deploying to real hardware |
-| SLAM (Simultaneous Localization and Mapping) | ROS 2 Navigation Stack Docs (Nav2), Cartographer/GMapping Resources | LiDAR Sensor, Nav2 Stack | Building maps of unknown environments autonomously |
-| Autonomous Navigation & Path Planning | ROS 2 Nav2 Tutorials, MIT OCW Robot Motion Planning | Nav2 Stack (Global/Local Planners) | Moving a robot safely from point A to point B while avoiding obstacles |
-
+| ROS (Robot Operating System) Fundamentals | ROS Wiki Tutorials (Noetic/ROS 2), The Construct ROS Academy | Ubuntu Linux, VS Code, ROS/ROS 2 | Standard framework for all complex robotics software integration. |
+| ROS Packages & Tools | Gazebo Simulator Docs, Rviz Visualization Tool | Gazebo, Rviz, rqt, catkin/colcon build tools | Simulating robots, visualizing sensor data, debugging messages. |
+| Localization & Mapping (SLAM) | Cyrill Stachniss YouTube (SLAM Course), ROS Gmapping/Cartographer Docs | LiDAR, IMU, Odometry, ROS SLAM Packages | Creating maps of unknown environments and localizing the robot within them. |
+| State Estimation & Filtering | Probabilistic Robotics Book (Thrun), ROS `robot_localization` package | Kalman Filters (EKF/UKF), Particle Filters | Fusing noisy sensor data into a single reliable estimate of robot state (pose/velocity). |
+| Advanced Control (Optional) | MIT OCW 16.31 Feedback Control Systems | MATLAB Control Toolbox, Python control library | Implementing advanced non-linear control algorithms. |
+| Robotics & AI/ML | TensorFlow/PyTorch Docs, OpenAI Gym (Reinforcement Learning) | Python, ML Libraries | Object detection (YOLO), Reinforcement Learning for motion planning. |
 ----
 **Note:** This phase is still under development.
 
