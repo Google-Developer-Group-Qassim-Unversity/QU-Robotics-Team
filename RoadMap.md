@@ -137,6 +137,69 @@ Design and fabricate a small robotic arm or drive train.
 
 ## Phase 5 — Sensors and Actuators  
 
+---
+
+###  General Overview
+
+This phase moves beyond basic component usage (from **Phases 2 & 3**) to an **in-depth, physics-based understanding** of how sensors measure the world and how actuators physically interact with it. The focus is on **selection, characterization, interfacing, and data interpretation**, preparing learners to choose the right tools for **complex control tasks in Phase 6**.
+
+---
+
+### Objectives
+
+- Understand the **physical principles (transduction methods)** behind common sensor and actuator technologies.  
+- Characterize **performance metrics**: accuracy, precision, linearity, hysteresis, bandwidth, noise, and power consumption.  
+- Master **signal conditioning techniques** to acquire clean, usable data.  
+- Select appropriate **actuators (motors, servos, solenoids)** based on torque, speed, and power requirements derived from **mechanical design constraints (Phase 4)**.  
+- Integrate advanced **feedback mechanisms** (encoders, IMUs, LiDAR, cameras) into microcontroller and embedded systems.
+
+---
+
+| **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
+|-------------|--------------------------|----------------|-------------|
+| **Transduction Principles (Physics of Sensing)** | MIT OCW 2.60: *Intro to Mechanical Design – Sensors* | Textbooks / Datasheets | Basis for sensor design and selection |
+| **Sensor Characterization & Metrics** | NIST Sensor Technology Resources | Multimeter, Oscilloscope | Calibrating sensors; noise analysis |
+| **Signal Conditioning & Filtering** | Analog Devices Design Tools, EEVblog *Analog Filters Tutorial* | Op-Amps, Resistors, Capacitors | Cleaning noisy sensor data before ADC |
+| **Data Acquisition (ADC & DAQ systems)** | TI ADC Guides, NI Basics of DAQ, MCU ADC Reference Notes | ADC (MCU integrated), External ADCs, USB DAQ | Sampling, resolution, sampling rate, aliasing, buffering |
+| **Common Sensors (Selection & Interface)** | SparkFun & Adafruit Learning Guides, Manufacturer Datasheets | IMUs, Encoders, LiDAR, Cameras | Navigation, localization, and detection |
+| **Actuator Principles (Motors & Mechanisms)** | Maxon/Pololu Selection Guides, MIT OCW Electromechanical Dynamics | DC, Stepper, Servo Motors, ESCs | Drive trains, robotic arms, grippers |
+| **Motor Drivers & Power Electronics** | TI Motor Driver Tools, EEVblog *Motor Driver Tutorial* | H-Bridges, MOSFETs, ESCs, Driver ICs | Safe and efficient power delivery to actuators |
+| **Feedback Devices (Encoders, Potentiometers)** | US Digital Encoder Principles, Maxon Academy | Incremental/Absolute Encoders, Hall sensors | Closed-loop control systems (Phase 6) |
+| **Actuator Modeling & Sizing** | MATLAB Motor Control Tutorials, Maxon Selection Software | MATLAB, Simulink, Physics Simulators | Ensuring motors meet torque/speed requirements |
+| **Vision Systems Basics** | OpenCV Docs, CMU Robotics Institute Courses | OpenCV (Python/C++), Cameras (USB/CSI) | Object tracking, SLAM, localization |
+| **Interfacing Protocols (I²C, SPI, UART)** | SparkFun Communication Protocols Guide, MCU Datasheets | Arduino, ESP32, STM32, Logic Analyzers | Connecting multiple sensors to a single MCU |
+
+---
+
+### Recommended Resources
+
+| **Type** | **Resource Name** | **Description** |
+|----------|-------------------|-----------------|
+| **Textbook** | *Sensors and Actuators: Engineering System Instrumentation* — Clarence W. de Silva | Graduate-level reference covering sensor/actuator physics |
+| **Textbook** | *Sensors, Actuators and Their Interfaces* — Nathan Ida | Multidisciplinary introduction to transduction and interfaces |
+| **Catalog / Reference** | Maxon / Pololu / SparkFun Catalogs | Real-world component selection guides and datasheets |
+| **Software** | MATLAB / Simulink (Simscape) | Modeling actuator dynamics and signal conditioning |
+| **Software** | OpenCV (Python/C++) | Computer vision and perception tasks |
+| **Reference** | TI, Analog Devices Application Notes | ADC and signal-conditioning design guidelines |
+
+---
+
+### Suggested Projects
+
+####  Mini Project 1 — Advanced Sensor Characterization  
+**Goal:** Interface an **IMU** (e.g., MPU6050 or BNO055) with a microcontroller and characterize it.  
+**Tasks:**  
+1. Implement a **Kalman** or **Complementary Filter** to fuse accelerometer and gyro data (use math from Phase 1).  
+2. Measure and report **noise, bias stability, and drift**; compare raw vs. filtered outputs.  
+3. Plot orientation (pitch/roll/yaw) and frequency-domain noise characteristics (FFT).
+
+####  Mini Project 2 — Closed-Loop Motor Control  
+**Goal:** Implement **velocity control** for a DC motor using encoder feedback.  
+**Tasks:**  
+1. Select a DC motor, driver, and encoder (use Maxon/Pololu guides).  
+2. Model motor dynamics in MATLAB/Simulink.  
+3. Implement firmware (C++ for Arduino/STM32) to read encoder counts with interrupts.  
+4. Implement a **P-controller** to hold target velocity and log step response.
 
 
 ---
