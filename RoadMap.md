@@ -345,6 +345,52 @@ This phase introduces industry-standard frameworks and cutting-edge algorithms u
 **Note:** This phase is still under development.
 
 ---
+---
+# Extra 1: Programming Fundamentals (Prerequisite)
+
+## General Overview
+While programming is used in all phases, this section ensures a robust understanding of core computer science principles necessary for writing efficient, maintainable, and real-time safe robotics code. The primary languages are C++ (for real-time performance on microcontrollers and in ROS nodes) and Python (for prototyping, AI, and high-level control).
+
+## Objectives
+* Master modern C++ features relevant to embedded and systems programming.
+* Develop proficiency in Python for rapid prototyping, AI/ML integration, and high-level control.
+* Understand data structures and algorithms essential for path planning and data processing.
+* Adopt professional software engineering practices (version control, testing, documentation).
+
+## Course Content
+
+| Subject | Best Free Resources | Main Tools | Used In |
+|---------|---------------------|------------|---------|
+| C++ Fundamentals | LearnCpp.com, C++ Primer Book | VS Code, GCC/Clang Compiler | Real-time embedded systems, ROS nodes, performance-critical code |
+| Python Fundamentals | Python.org Tutorial, Automate the Boring Stuff | VS Code, Python 3.x, Jupyter Notebooks | AI/ML, rapid prototyping, data analysis, high-level control scripts |
+| Data Structures & Algorithms | MIT OCW 6.006, LeetCode Practice | C++/Python | Path planning, sensor data processing, optimization problems |
+| Version Control (Git) | Git Documentation, GitHub Guides, Atlassian Git Tutorials | Git, GitHub/GitLab | Collaborative development, code versioning, project management |
+| Software Engineering Practices | Clean Code (Robert Martin), Test-Driven Development | Unit Testing Frameworks (gtest, pytest), CI/CD tools | Writing maintainable, reliable, and professional-quality code |
+
+---
+
+# Extra 2: Teamwork, Collaboration & Competition
+
+## General Overview
+Robotics is inherently collaborative. This section focuses on developing the soft skills and organizational practices necessary for successful team-based projects and competitive robotics. Members will learn effective communication, project management, documentation standards, and strategies for participating in robotics competitions.
+
+## Objectives
+* Develop effective team communication and collaboration strategies.
+* Learn project management methodologies (Agile/Scrum) for robotics projects.
+* Master technical documentation and knowledge sharing practices.
+* Understand competition preparation, strategy, and execution.
+* Build networking skills within the robotics community.
+
+## Course Content
+
+| Subject | Best Free Resources | Main Tools | Used In |
+|---------|---------------------|------------|---------|
+| Team Communication & Collaboration | Atlassian Team Playbook, Scrum Guide | Slack/Discord, Notion/Confluence, Trello/Jira | Daily standups, sprint planning, cross-functional team coordination |
+| Project Management for Robotics | Agile Practice Guide, Scrum.org Resources | Gantt Charts, Kanban Boards, GitHub Projects | Planning timelines, managing milestones, tracking deliverables |
+| Technical Documentation | Write the Docs Guide, Markdown Guide | Markdown, Sphinx, Doxygen, README best practices | Creating wikis, API docs, user manuals, and project reports |
+| Competition Strategy & Preparation | VEX/FIRST/RoboCup Resources, Past Competition Archives | Competition rulebooks, strategic planning tools | Preparing for robotics competitions, game strategy, alliance coordination |
+| Networking & Community Engagement | Robotics conferences (ICRA, IROS), Local meetups, Online forums | LinkedIn, robotics forums (ROS Discourse, Reddit r/robotics) | Building professional connections, finding mentors, staying current with industry trends |
+| Presentation & Outreach | TED Talk guidelines, IEEE presentation tips | PowerPoint/Google Slides, Canva | Presenting technical work to judges, sponsors, and the public |
 
 ---
 > © All Rights Reserved — Qu Robotics Team 2025
