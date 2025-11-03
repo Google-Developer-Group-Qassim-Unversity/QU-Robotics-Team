@@ -289,7 +289,7 @@ The projects in this phase encourage **iterative design**, **testing**, and **pr
 
 ---
 
-### Core Project Areas
+### Project Ideas 
 
 | **Project Focus** | **Key Technologies Used** | **Deliverables** | **Used In** |
 |--------------------|---------------------------|------------------|-------------|
@@ -317,7 +317,36 @@ The projects in this phase encourage **iterative design**, **testing**, and **pr
 
 ---
 
+## Phase 8 — Advanced Topics (ROS 2 & Autonomy) 
 
+### General Overview
+This phase introduces the industry-standard framework, the Robot Operating System (ROS 2), which provides a structured middleware for complex robotic software architectures. Members will learn to transition from bare-metal microcontroller programming to a modular, networked system capable of running advanced autonomy algorithms.
+
+--- 
+
+### Objectives
+* Master the ROS 2 architecture (Nodes, Topics, Services, Actions, Parameters, Messages).
+* Utilize simulation environments (Gazebo) to test complex algorithms virtually.
+* Implement Simultaneous Localization and Mapping (SLAM) and the Navigation2 stack.
+* Understand data flow management, debugging tools (RViz, PlotJuggler), and inter-process communication (DDS).
+
+---
+
+| Subject | Best Free Resources | Main Tools | Used In |
+|---------|---------------------|------------|---------|
+| Introduction to ROS 2 & Architecture | ROS 2 Documentation & Tutorials, The Construct ROS 2 Courses | Ubuntu Linux, VS Code, ROS 2 (Foxy/Humble) | The software backbone of nearly all modern robots |
+| Nodes, Topics, Messages (Pub/Sub) | ROS 2 Publisher/Subscriber Tutorials | C++ / Python, Terminal/CLI | Basic communication between all robot processes |
+| Services, Actions, Parameters | ROS 2 Actions Tutorial, ROS 2 Parameters Tutorial | C++ / Python | Structured command/response interactions (e.g., starting a navigation task) |
+| TF2 (Coordinate Transforms) | ROS 2 TF2 Tutorials, ROS Wiki: TF Introduction | URDF, RViz | Managing spatial relationships between sensors, joints, and the world frame |
+| URDF/Xacro Model Creation | ROS 2 URDF Tutorials | SolidWorks/Fusion 360 Exporter, URDF | Describing the physical robot model for simulation and visualization |
+| Simulation with Gazebo | Gazebo Documentation/Tutorials, ROS 2 Gazebo Integration | Gazebo, RViz | Testing algorithms safely before deploying to real hardware |
+| SLAM (Simultaneous Localization and Mapping) | ROS 2 Navigation Stack Docs (Nav2), Cartographer/GMapping Resources | LiDAR Sensor, Nav2 Stack | Building maps of unknown environments autonomously |
+| Autonomous Navigation & Path Planning | ROS 2 Nav2 Tutorials, MIT OCW Robot Motion Planning | Nav2 Stack (Global/Local Planners) | Moving a robot safely from point A to point B while avoiding obstacles |
+
+----
+**Note:** This phase is still under development.
+
+---
 
 ---
 > © All Rights Reserved — Qu Robotics Team 2025
