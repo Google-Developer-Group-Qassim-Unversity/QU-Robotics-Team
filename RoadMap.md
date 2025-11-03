@@ -6,7 +6,7 @@ This roadmap guides new members through the **core knowledge** required to becom
 It’s divided into **phases** — each focusing on building a layer of understanding essential for robotics development.
 
 ---
-## Phase 1 — Mathmatical Fundamentals 
+## Phase 1 — Mathematical Fundamentals 
 
 | **Subject** | **Best Free Resources** | **Main Tools** | **Used In** |
 |--------------|--------------------------|----------------|--------------|
