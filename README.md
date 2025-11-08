@@ -38,4 +38,4 @@ To become one of the **leading university robotics teams in the region**, proudl
 - **Ebtihal Alomari** — Girls Representer
 - **Muzna Abdelgadir** - General Managment
 ### Supervisor
-- **Dr. Jamal** — General Supervisor  
+- **Dr. Jamal Alotaibi** — General Supervisor  
